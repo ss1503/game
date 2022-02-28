@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/firstTV"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/thirdTV"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/thirdTV"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/fifthTV"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/thirdTV"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/secondTV"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fourthTV"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstTV"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/fourthTV"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/secondAnserET"
+        app:layout_constraintEnd_toStartOf="@+id/sixthTV"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/thirdTV"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <TextView
+        android:id="@+id/sixthTV"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <EditText
+        android:id="@+id/firstAnswerEt"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="answer"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <EditText
+        android:id="@+id/secondAnswerET"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="answer"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+
+    <EditText
+        android:id="@+id/thirdAnswerET"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="answer"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <ImageView
+        android:id="@+id/firstResultIV"
+        android:layout_width="82dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/secondResultIV"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279"
+         />
+
+    <ImageView
+        android:id="@+id/secondResultIV"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/thirdResultIV"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279"
+         />
+
+    <ImageView
+        android:id="@+id/thirdResultIV"
+        android:layout_width="82dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279"
+         />
+
+    <Button
+        android:id="@+id/checkAnswerOneBtn"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:text="Check answer"
+        android:textSize="10sp"
+        android:onClick="clickedAnswerOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstResultIV" />
+
+    <Button
+        android:id="@+id/checkAnswerTwoBtn"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:text="Check answer"
+        android:textSize="10sp"
+        android:onClick="clickedAnswerTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toEndOf="@+id/checkAnswerOneBtn"
+        app:layout_constraintTop_toBottomOf="@+id/secondResultIV" />
+
+    <Button
+        android:id="@+id/checkAnswer3Btn"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="Check answer"
+        android:textSize="10sp"
+        android:onClick="clickedAnswerThree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toEndOf="@+id/checkAnswerTwoBtn"
+        app:layout_constraintTop_toBottomOf="@+id/thirdResultIV" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="282dp"
+        android:layout_height="148dp"
+        android:text="reset"
+        android:onClick="resetClicled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkAnswerTwoBtn"
+        app:layout_constraintVertical_bias="0.299" />
+</androidx.constraintlayout.widget.ConstraintLayout>
